@@ -1,1 +1,1 @@
-# Route-planning-in-occupancy-grid-with-A-search-and-probabilistic-roadmaps
+# Route planning in occupancy grid with A star search and probabilistic roadmaps
