@@ -73,10 +73,12 @@ Make sure to install the following Python packages:
 
 ```bash
 pip install numpy matplotlib networkx pillow bresenham
----
-## To run scripts
+
+## To Run Scripts
+
+Use the following commands to run the individual scripts:
+
 ```bash
 python prm_graph_planner.py
 python astar_grid_planner.py
 python astar_adjacency_matrix.py
-
