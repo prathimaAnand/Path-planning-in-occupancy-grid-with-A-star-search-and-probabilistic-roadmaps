@@ -111,3 +111,15 @@ def heuristic2(node1, node2):
 path1 = AStarSearchAlgo(graph, [3, 5], [0, 0])
 print("Path")
 print(path1)
+
+# Expected output
+Input Graph
+[[1 1 1 1 0 1]
+ [1 0 1 0 1 1]
+ [1 1 0 1 0 1]
+ [1 1 1 1 0 1]
+ [0 1 0 1 1 1]
+ [1 1 1 0 1 1]]
+
+Path:
+[[3, 5], [2, 5], [1, 4], [0, 3], [0, 2], [0, 1], [0, 0]]
