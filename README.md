@@ -7,7 +7,18 @@ This repository provides three Python-based implementations for path planning on
 3. **A\* Search on an Adjacency Matrix**
 
 These algorithms are fundamental to robotics and AI for tasks like autonomous navigation, obstacle avoidance, and roadmap-based planning.
+## Skills Demonstrated
 
+- **Path Planning Algorithms**: Implementation of A* algorithm from scratch
+- **Data Structures**: Priority queue, dictionaries, adjacency matrix
+- **Robotics Concepts**: Occupancy grids, graph traversal
+- **Python Programming**: Efficient array and matrix operations using NumPy
+
+ ## Technologies Used
+
+- Python 3.x
+- NumPy
+- `queue.PriorityQueue`
 ---
 
 ## Code Overview
@@ -67,13 +78,26 @@ This script implements A\* on a user-defined adjacency matrix representing conne
   ```python
   occupancy_grid = (np.asarray(Image.open('occupancy_map.png')) > 0).astype(int)
 
+## Output
+
+```
+Input Graph
+[[1 1 1 0 1 1]
+ [1 0 0 1 1 1]
+ [1 1 0 1 1 1]
+ [0 1 1 0 1 1]
+ [1 1 1 1 0 1]
+ [1 1 1 1 1 0]]
+Path
+[[3, 5], [2, 5], [1, 4], [0, 3], [0, 2], [0, 1], [0, 0]]
+```
 ## Requirements
 
 Make sure to install the following Python packages:
 
 ```bash
 pip install numpy matplotlib networkx pillow bresenham
-
+```
 ## To Run Scripts
 
 Use the following commands to run the individual scripts:
@@ -82,3 +106,4 @@ Use the following commands to run the individual scripts:
 python prm_graph_planner.py
 python astar_grid_planner.py
 python astar_adjacency_matrix.py
+```
